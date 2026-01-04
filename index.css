@@ -1,0 +1,55 @@
+body {
+    background-color: #ffffff;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;  
+}
+
+
+/* Navigation Menu*/
+.nav-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.nav-bar {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div .logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+div .nav-list {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 56px;
+    
+}
+
+.art, .about {
+    opacity: 50%;
+}
+
+button {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 8px;
+    border: none;
+    width: 100px;
+    height: 48px;
+}
